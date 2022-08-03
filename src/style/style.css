@@ -4,10 +4,14 @@
         box-sizing: border-box;
     }
 
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400&display=swap');
+
     body {
         width: 100vw;
         height: 100vh;
+        font-family: 'Lexend Deca', sans-serif;
     }
+
 
     .nav {
         display: flex;
@@ -32,6 +36,12 @@
 
     }
 
+    .nav-links i:hover {
+        color: crimson;
+        transform: scale(1.2);
+
+    }
+
     .presentation {
         height: 100vh;
         display: flex;
@@ -47,13 +57,17 @@
         width: 400px;
         margin-bottom: 28rem;
     }
-    .description h1, h2{
+
+    .description h1,
+    h2 {
         font-size: 25px;
     }
-    .description h1 span{
-        font-size: 30px;
+
+    .description h1 span {
+        font-size: 35px;
         color: blue;
     }
+
     .description p {
         font-size: 15px;
         padding-right: 2rem;
@@ -67,18 +81,32 @@
         border-radius: 50%;
     }
 
+    .presentation img:hover {
+        box-shadow: 5px 5px 10px 2px blue;
+       
+    }
+
     .btn-cv {
-        
+
         background-color: rgba(32, 223, 248, 0.499);
         border: none;
         position: absolute;
-        width: 120px;
+        width: 130px;
         height: 50px;
         bottom: 5.2rem;
-        border-radius: 10px;
+        border-radius: 9px;
         box-shadow: 3px 3px 2px 1px rgb(4, 12, 253);
     }
-    .btn-cv span{
+
+    .btn-cv:hover {
+        background-color: blue;
+        box-shadow: 3px 3px 2px 1px rgba(32, 223, 248, 0.499);
+        color: white;
+        transform: scale(1.2);
+    }
+
+    .btn-cv span {
         font-size: 25px;
         color: antiquewhite;
     }
+
