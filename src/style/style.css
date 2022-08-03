@@ -264,7 +264,8 @@
 .card img{
     
     display: grid;
-    width: 400px;
+    width: 370px;
+    height: 250px;
     gap: 2rem;
 }
 .card img:hover{
