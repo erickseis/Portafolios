@@ -170,7 +170,9 @@
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        
     }
+    
 
     .box-review {
         display: flex;
@@ -180,10 +182,53 @@
         width: 300px;
         height: 180px;
         box-shadow: 1px 1px 10px 1px  var(--tittle);
+        
 
     }
     .box-review h2 {
         color: var(--tittle);
         font-size: 50px;
         border-bottom: 2px solid rgba(128, 128, 128, 0.525);
+    }
+    .technology{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    .img-technology{
+        width: 100px;
+    }
+    .react:hover{
+     transform: scale(1.2);
+    }
+    .container-aboutMe h1{
+        font-size: 35px;
+    }
+    .container-aboutMe h1 span{
+        
+        font-size: 35px;
+        color: var(--tittle);
+    }
+
+
+
+    .abilities{
+        width: 100%;
+        
+        }
+    
+        
+    .abilities h1{
+        font-size: 35px;
+    }
+    .abilities h1 span{
+        font-size: 35px;
+        color: var(--tittle);
+    }
+
+    .bp{
+        display: flex;
+        height: 40px;
+        flex-direction: column;
+        width: 100%;
     }
