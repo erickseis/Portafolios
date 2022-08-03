@@ -270,3 +270,25 @@
 .card img:hover{
     transform: scale(1.1);
 }
+.form, .form-container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container H1{
+    font-size: 35PX;
+    color: var(--tittle);
+}
+.contaApp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.form-container p i{
+  font-size: 100px;
+}
+
