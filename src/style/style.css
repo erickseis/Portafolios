@@ -10,6 +10,7 @@
         --background-body:#191d2b;
         --tittle: #27ae60;
         --white: #ffffff;
+        --blue-cyan: rgb(0, 242, 255);
     }
 
     body {
@@ -49,7 +50,7 @@
     }
 
     .nav-links i:hover {
-        color: crimson;
+        color: var(--blue-cyan);
         transform: scale(1.2);
 
     }
@@ -96,13 +97,13 @@
 
     .presentation img:hover {
         box-shadow: 5px 5px 10px 2px rgb(0, 242, 255);
+        transform: scale(1.1);
        
     }
 
     .btn-cv {
 
-        background-color: rgba(32, 223, 248, 0);
-        border:rgba(32, 223, 248, 0.499) ;
+        background-color: transparent;
         border: none;
         position: absolute;
         width: 150px;
@@ -114,7 +115,7 @@
 
     .btn-cv:hover {
         background-color: var(--tittle);
-        box-shadow: 3px 3px 2px 1px rgba(32, 223, 248, 0.499);
+        box-shadow: 3px 3px 2px 1px var(--blue-cyan);
         color: white;
         transform: scale(1.2);
     }
