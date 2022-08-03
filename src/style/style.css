@@ -127,7 +127,6 @@
     }
 
 .container-aboutMe{
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,20 +136,26 @@
     text-align: center;
 }
 .aboutMe h1{
+    
     font-size: 35px;
     line-height:2.2rem;
     margin-top: -2rem;
 }
 .aboutMe h1 span1{
+    
     color: var(--tittle);
 }
 
 
 .aboutMe h1 span{
+    
     opacity: 10%;
     font-size: 45px;
 }
 
 .aboutMe p {
     width: 400px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 20px;
 }
