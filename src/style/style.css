@@ -3,10 +3,11 @@
         margin: 0;
         box-sizing: border-box;
     }
+
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
-    
-    :root{
-        --background-body:#191d2b;
+
+    :root {
+        --background-body: #191d2b;
         --tittle: #27ae60;
         --white: #ffffff;
         --blue-cyan: rgb(0, 242, 255);
@@ -44,7 +45,8 @@
         font-size: 35px;
         background-color: #27ae5f;
     }
-    .nav-links i{
+
+    .nav-links i {
         color: var(--white);
     }
 
@@ -74,7 +76,8 @@
         font-size: 25px;
     }
 
-    .description h1 span, h2 span {
+    .description h1 span,
+    h2 span {
         font-size: 35px;
         color: var(--tittle);
     }
@@ -90,7 +93,7 @@
     .presentation img {
         position: absolute;
         bottom: 10rem;
-        
+
         box-shadow: 5px 5px 10px 2px var(--tittle);
         /* background-color: rgba(0, 0, 0, 0.516); */
         border-radius: 50%;
@@ -99,7 +102,7 @@
     .presentation img:hover {
         box-shadow: 5px 5px 10px 2px rgb(0, 242, 255);
         transform: scale(1.1);
-       
+
     }
 
     .btn-cv {
@@ -126,37 +129,57 @@
         color: antiquewhite;
     }
 
-.container-aboutMe{
-    margin-top: -3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    text-align: center;
-}
-.aboutMe h1{
-    
-    font-size: 35px;
-    line-height:2.2rem;
-    margin-top: -2rem;
-}
-.aboutMe h1 span1{
-    
-    color: var(--tittle);
-}
+    .container-aboutMe {
+        margin-top: -3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .aboutMe h1 {
+
+        font-size: 35px;
+        line-height: 2.2rem;
+        margin-top: -2rem;
+    }
+
+    .aboutMe h1 span1 {
+
+        color: var(--tittle);
+    }
 
 
-.aboutMe h1 span{
-    
-    opacity: 10%;
-    font-size: 45px;
-}
+    .aboutMe h1 span {
 
-.aboutMe p {
-    width: 400px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 20px;
-}
+        opacity: 10%;
+        font-size: 45px;
+    }
+
+    .aboutMe p {
+        width: 400px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 20px;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .box-review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 180px;
+        line-height: 2rem;
+        box-shadow: 1px 1px 10px 1px  var(--tittle);
+
+    }
