@@ -51,6 +51,7 @@
         font-size: 25px;
     }
     .description h1 span{
+        font-size: 30px;
         color: blue;
     }
     .description p {
@@ -59,7 +60,7 @@
 
     .presentation img {
         position: absolute;
-        bottom: 10rem;
+        bottom: 8rem;
         background-color: #5086c1;
         border-radius: 50%;
     }
@@ -71,7 +72,7 @@
         position: absolute;
         width: 120px;
         height: 50px;
-        bottom: 7.5rem;
+        bottom: 5.2rem;
         border-radius: 10px;
         box-shadow: 3px 3px 2px 1px rgb(4, 12, 253);
     }
