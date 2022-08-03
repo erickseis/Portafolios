@@ -66,7 +66,7 @@
 
     .description {
         width: 400px;
-        margin-bottom: 28rem;
+        margin-bottom: 30rem;
     }
 
     .description h1,
@@ -87,7 +87,7 @@
 
     .presentation img {
         position: absolute;
-        bottom: 8rem;
+        bottom: 10rem;
         
         box-shadow: 5px 5px 10px 2px var(--tittle);
         /* background-color: rgba(0, 0, 0, 0.516); */
@@ -107,7 +107,7 @@
         position: absolute;
         width: 150px;
         height: 40px;
-        bottom: 5.2rem;
+        bottom: 7.2rem;
         border-radius: 30px;
         box-shadow: 1px 1px 2px 1px var(--tittle);
     }
