@@ -292,4 +292,27 @@
 .form-container p i{
   font-size: 100px;
 }
+.Form{
+    display: grid;
+}
+input{
+    width: 229px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-top: -.7rem;
+    
+}
 
+textarea{
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.btn-form{
+    background-color: transparent;
+    border: none;
+
+}
