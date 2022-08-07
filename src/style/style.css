@@ -307,11 +307,14 @@
 
 
 
-.form-container p i{
+.form-container p a i{
   font-size: 60px;
+  color: var(--white);
+  text-decoration-style: none;
 }
-.form-container p i:hover{
+.form-container p a i:hover{
     transform: scale(1.3);
+
   }
 
 

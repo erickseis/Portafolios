@@ -4,7 +4,7 @@ window.addEventListener('scroll', function(){
     let widthScreen = window.innerHeight/3.5;
 
 if(positionOne < widthScreen){
-    animation.style.animation = 'mover 1s ease-out'
+    animation.style.animation = 'mover 1.5s ease-out'
 }
 
 })
