@@ -303,12 +303,14 @@
     top: 0;
     transition: all 400ms ease-in-out;
     border-radius: 10px;
+    text-align: center;
 }
 .card footer p{
     color: black;
     width: 250px;
     height: 150px;
     position: absolute;
+    margin-top: -2rem;
 }
 .card footer a{
     display: flex;
@@ -321,7 +323,10 @@
   text-decoration-style: none;
   color: var(--background-body);
 }
-
+.card footer a:hover{
+   transform: scale(1.2);
+   color: white
+}
 
 
 

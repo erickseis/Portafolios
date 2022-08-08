@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" type="text/css" href="/src/style/style.css" media="screen" />
-
+  <link rel="stylesheet" type="text/css" href="/src/style/style.css" 
+  media="screen" />
+<link rel="stylesheet" href="./src/style/darkmode.css">
   <title>Portafolios</title>
 
 </head>
 
-<body>
+<body class="dark">
   <nav class="nav">
     <div class="nav-links" id="menu">
-      <a href="" class="nav-target"><i class="fa-solid fa-circle-half-stroke"></i></a>
+      <a id="darkmode" class="nav-target"><i class="fa-solid fa-circle-half-stroke"></i></a>
       <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i></a>
       <a href="#aboutMe" class="nav-link"><i class="fa-solid fa-user"></i></a>
       <a href="#projects" class="nav-link"><i class="fa-solid fa-briefcase"></i></a>
@@ -134,7 +135,7 @@
     <div class="projects card">
         <img src="https://camo.githubusercontent.com/617cce9c26a0fa7cc2dfc44d04bba5390390ca20c9dc8be8aab10e8196c33480/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f686550354958665634574a69414f313659482f67697068792e676966" alt="pokedex">
         <footer>
-          <p>Construida con las tecnologias: React, Redux, React Router, javaScript, HTML, CSS, ocupando la pokeapi para desarrollarla, nos muestra una guia de stats de diversos Pokemon </p>
+          <p>Construida con las tecnologias: React, Redux, React Router, javaScript, HTML, CSS, ocupando la POKEAPI para desarrollarla, nos muestra una guia de stats de diversos Pokemon. Tecnologias utilizadas React, Redux, React Router, HTML y CSS. </p>
           <a href="https://github.com/erickseis/Pokedex"><i class="fa-brands fa-github"></i></a>
           <a href="https://pokedexerick.netlify.app/"><i class="fa-solid fa-globe"></i></a>
         </footer>
@@ -142,43 +143,49 @@
     <div class="projects card">
         <img src="./src/images/crud.gif" alt="crud">
         <footer>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-solid fa-globe"></i></a>
+          <p>Proyecto donde ocupe herramientas de React con Axios mientras se consume una API con los metodos Get, Post, Delete. Tecnologias utilizadas React, HTML y CSS. </p>
+          <a href="https://github.com/erickseis/Api-Users-Put-Post-Delete-"><i class="fa-brands fa-github"></i></a>
+          <a href="https://cards-crud.netlify.app/"><i class="fa-solid fa-globe"></i></a>
         </footer>
     </div>
     <div class="projects card">
         <img src="./src/images/appclima.gif" alt="clima">
         <footer>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-solid fa-globe"></i></a>
+          <p>Construida para mostrar los datos del tiempo en tu localizacion ocupa una API que permite interactuar con estos datos. Tecnologias utilizadas React, HTML y CSS.</p>
+          <a href="https://github.com/erickseis/AppClima"><i class="fa-brands fa-github"></i></a>
+          <a href="https://appclimatelocation.netlify.app/"><i class="fa-solid fa-globe"></i></a>
         </footer>
     </div>
     <div class="projects card">
         <img src="./src/images/pokedex-simple.gif" alt="pokedex-simple">
         <footer>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-solid fa-globe"></i></a>
+          <p>Una version mas sencilla de la pokedex con un diseño amigable e intuitivo, muestra las caracteristicas de cada pokemon.  Tecnologias utilizadas React, HTML y CSS.</p>
+          <a href="https://github.com/erickseis/Pokedex-basico"><i class="fa-brands fa-github"></i></a>
+          <a href="https://pokedexbasicapi.netlify.app/"><i class="fa-solid fa-globe"></i></a>
         </footer>
     </div>
     <div class="projects card">
         <img src="./src/images/ryckandmorty.gif" alt="ryckAndMorty">
         <footer>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-solid fa-globe"></i></a>
+          <p>Concebida a partir del consumo de una API, ostenta paginacion para separar la cantidad de personajes a mostrar en pantalla, asi como sus caracteristicas, cuenta con una barra para busqueda personalizada por id de cada planeta. Tecnologias utilizadas React, Axios, HTML y CSS.</p>
+          <a href="https://github.com/erickseis/Rick-and-Morty"><i class="fa-brands fa-github"></i></a>
+          <a href="rickandmortyappforapi.netlify.app"><i class="fa-solid fa-globe"></i></a>
         </footer>
     </div>
     <div class="projects card">
         <img src="./src/images/storeAcademlo.gif" alt="store-img">
         <footer>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-solid fa-globe"></i></a>
+          <p>Proyecto creado con la finalidad de mostrar articulos de una tienda, posee un carrito de compras donde se pueden cargar estos productos ocupando para ello "local storage", para almacenar la informacion del usuario, Tecnologias utilizadas JavaScript Vanilla, HTML y CSS.</p>
+          <a href="https://github.com/erickseis/Ecommerce-Vanilla-JavaScript"><i class="fa-brands fa-github"></i></a>
+          <a href="https://ecommercelocalstorage.netlify.app/"><i class="fa-solid fa-globe"></i></a>
         </footer>
     </div>
     <div class="projects card">
         <img src="./src/images/tarjetas.gif" alt="cards">
         <footer>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-solid fa-globe"></i></a>
+          <p>Proyecto realizado a partir de un archivo JSON, donde nos comparte frases celebres de algunos visionarios del pasado, al cambiar la frase se le asigna un nuevo color al estilo mostrado en pantalla, React, HTML y CSS</p>
+          <a href="https://github.com/erickseis/ReactEntregable1"><i class="fa-brands fa-github"></i></a>
+          <a href="https://jsoncard.netlify.app/"><i class="fa-solid fa-globe"></i></a>
         </footer>
     </div>
  
