@@ -302,7 +302,7 @@ body.dark-theme{
 }
 .card img {
     display: block;
-    width: 300px;
+    width: 500px;
     height: 200px;
     gap: 2rem;
     border-radius: 10px;
