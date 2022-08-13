@@ -14,7 +14,21 @@
         --tittle: #27ae60;
         --white: #ffffff;
         --blue-cyan: rgb(0, 242, 255);
+        --blue-cyan-cards: rgba(0, 242, 255, 0.396);
+        --nav: #27ae5f86 ;
+      
     }
+
+    
+body.dark-theme{
+    --background-body: #feffff;
+        --tittle: #9215e0;
+        --white: #0f0e0e;
+        --blue-cyan: rgb(48, 197, 53);
+        --nav: #9215e07b;
+        --blue-cyan-cards: #9215e07b;
+       
+}
 
     body {
         width: 100vw;
@@ -46,7 +60,7 @@
         border-radius: 40px;
         bottom: 1.5rem;
         font-size: 25px;
-        background-color: #27ae5f73;
+        background-color: var(--nav);
         z-index: 10;
     }
     
@@ -112,7 +126,7 @@
     }
 
     .presentation img:hover {
-        box-shadow: 5px 5px 10px 2px rgb(0, 242, 255);
+        box-shadow: 5px 5px 10px 2px var(--blue-cyan);
         transform: scale(1.1);
 
     }
@@ -132,13 +146,17 @@
     .btn-cv:hover {
         background-color: var(--tittle);
         box-shadow: 3px 3px 2px 1px var(--blue-cyan);
-        color: white;
+        color: var(--white);
         transform: scale(1.2);
     }
 
     .btn-cv span {
         font-size: 25px;
-        color: antiquewhite;
+        color: var(--white);
+    }
+    #download{
+        color: var(--white);
+      text-decoration: none;
     }
 
     .container-aboutMe {
@@ -300,7 +318,7 @@
     overflow: hidden;
     width: 0;
     height: 250px;
-    background-color: rgba(0, 255, 255, 0.574);
+    background-color: var(--blue-cyan-cards);
     position: absolute;
     top: 0;
     transition: all 400ms ease-in-out;
@@ -308,7 +326,7 @@
     text-align: center;
 }
 .card footer p{
-    color: black;
+    color: var(--background-body);
     width: 250px;
     height: 150px;
     position: absolute;
@@ -327,7 +345,7 @@
 }
 .card footer a:hover{
    transform: scale(1.2);
-   color: white
+   color: var(--white)
 }
 
 
@@ -374,7 +392,7 @@
 input{
     width: 229px;
     height: 30px;
-    background-color: #ffffff;
+    background-color: var(--white);
     border-radius: 10px;
     border: none;
     text-align: center;

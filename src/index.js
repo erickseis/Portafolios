@@ -1,10 +1,9 @@
-window.addEventListener('scroll', function(){
-    let animation = document.getElementById('animado');
-    let positionOne = animation.getBoundingClientRect().top;
-    let widthScreen = window.innerHeight/3.5;
+let body = document.querySelector("body")
+let themeIcon = document.getElementById("dark")
 
-if(positionOne < widthScreen){
-    animation.style.animation = 'mover 1.5s ease-out'
-}
+themeIcon.addEventListener( "click", (e) =>{
 
+body.classList.toggle("dark-theme")
+        
 })
+
