@@ -324,6 +324,7 @@ body.dark-theme{
     transition: all 400ms ease-in-out;
     border-radius: 10px;
     text-align: center;
+    margin-top: 1.8rem;
 }
 .card footer p{
     color: var(--background-body);
