@@ -16,6 +16,7 @@
         --blue-cyan: rgb(0, 242, 255);
         --blue-cyan-cards: rgba(0, 242, 255, 0.396);
         --nav: #27ae5f86 ;
+        --input: #ffffff;
       
     }
 
@@ -27,6 +28,7 @@ body.dark-theme{
         --blue-cyan: rgb(48, 197, 53);
         --nav:  rgba(76, 39, 225, 0.549);
         --blue-cyan-cards: #9215e07b;
+        --input: #08080821;
        
 }
 
@@ -393,7 +395,7 @@ body.dark-theme{
 input{
     width: 229px;
     height: 30px;
-    background-color: var(--white);
+    background-color: var(--input);
     border-radius: 10px;
     border: none;
     text-align: center;
@@ -404,6 +406,7 @@ input{
 textarea{
     border-radius: 5px;
     text-align: center;
+    background-color: var(--input);
     
 }
 .btn-submit{
