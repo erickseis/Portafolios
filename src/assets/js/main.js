@@ -26,3 +26,4 @@ window.sr = ScrollReveal();
         distance: '-100px'
     });
 
+AOS.init();

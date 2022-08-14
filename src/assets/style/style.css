@@ -233,13 +233,30 @@ body.dark-theme{
         width: 300px;
         height: 180px;
         box-shadow: 1px 1px 10px 1px var(--tittle);
-
+      
 
     }
 
     .box-review:hover {
         box-shadow: 1px 1px 10px 1px var(--blue-cyan);
-        transform: scale(1.2);
+        animation: move 2s infinite;
+        animation-delay: 100ms;
+        animation-name: abilities;
+      }
+      
+      @keyframes abilities {
+        0% {}
+      
+        25% {
+          transform: scale(1);
+        }
+      
+        50% {
+            transform: scale(1.1);
+        }
+        100%{
+            transform: scale(1);
+        }
     }
 
     .box-review h2 {
@@ -278,7 +295,7 @@ body.dark-theme{
 
     .abilities {
         width: 100%;
-
+    
     }
 
 
