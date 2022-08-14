@@ -22,10 +22,10 @@
     
 body.dark-theme{
     --background-body: #feffff;
-        --tittle: #9215e0;
+        --tittle: rgb(76, 39, 225);
         --white: #0f0e0e;
         --blue-cyan: rgb(48, 197, 53);
-        --nav: #9215e07b;
+        --nav:  rgba(76, 39, 225, 0.549);
         --blue-cyan-cards: #9215e07b;
        
 }
@@ -71,7 +71,7 @@ body.dark-theme{
     }
 
     .nav-links i:hover {
-        color: var(--blue-cyan);
+        color: var(--tittle);
         transform: scale(1.2);
 
     }
@@ -112,7 +112,7 @@ body.dark-theme{
 
     .presentation img {
         position: absolute;
-        bottom: 10rem;
+        bottom: 9rem;
 
         box-shadow: 5px 5px 10px 2px var(--tittle);
         /* background-color: rgba(0, 0, 0, 0.516); */
@@ -138,13 +138,13 @@ body.dark-theme{
         position: absolute;
         width: 150px;
         height: 40px;
-        bottom: 7.2rem;
+        bottom: 5rem;
         border-radius: 30px;
         box-shadow: 1px 1px 2px 1px var(--tittle);
     }
 
     .btn-cv:hover {
-        background-color: var(--tittle);
+        background-color: var(--nav);
         box-shadow: 3px 3px 2px 1px var(--blue-cyan);
         color: var(--white);
         transform: scale(1.2);
