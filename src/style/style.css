@@ -117,7 +117,6 @@ body.dark-theme{
         bottom: 9rem;
 
         box-shadow: 5px 5px 10px 2px var(--tittle);
-        /* background-color: rgba(0, 0, 0, 0.516); */
         border-radius: 50%;
     }
     
@@ -143,6 +142,26 @@ body.dark-theme{
         bottom: 5rem;
         border-radius: 30px;
         box-shadow: 1px 1px 2px 1px var(--tittle);
+        animation: move 2s infinite;
+        animation-delay: 2000ms;
+        animation-name: cv;
+      }
+      
+      @keyframes cv {
+        0% {}
+      
+        25% {
+          transform: scale(1);
+        }
+      
+        50% {
+      
+            transform: scale(1.2);
+        }
+        90% {
+      
+            transform: scale(1);
+        }
     }
 
     .btn-cv:hover {
