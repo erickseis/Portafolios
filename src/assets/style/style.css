@@ -522,7 +522,7 @@
             justify-content: center;
             margin-right: -80rem;
             bottom: 20rem;
-            font-size: 30px;
+            font-size: 25px;
             background-color: transparent;
 
         }
@@ -534,8 +534,8 @@
             align-items: center;
             justify-content: center;
             background-color: var(--nav);
-            width: 65px;
-            height: 65px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
 
         }
