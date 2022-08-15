@@ -298,11 +298,6 @@
             transform: rotateY(45deg);
         }
 
-
-
-
-
-
     }
 
     .react:hover {
@@ -364,8 +359,6 @@
         overflow: hidden;
         cursor: pointer;
 
-
-
     }
 
     .card img {
@@ -421,10 +414,6 @@
         transform: scale(1.2);
         color: var(--white)
     }
-
-
-
-
 
     .form,
     .form-container {
@@ -612,7 +601,7 @@
             bottom: 2rem;
             font-size: 20px;
             margin-left: 28rem;
-            
+
 
         }
 
@@ -637,9 +626,6 @@
             font-size: 25px;
             text-align: justify;
         }
-
-
-
 
         .review {
             display: flex;
