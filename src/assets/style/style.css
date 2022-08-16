@@ -396,6 +396,7 @@
         height: 150px;
         position: absolute;
         margin-top: -2.5rem;
+        text-align: justify;
     }
 
     .card footer a {
