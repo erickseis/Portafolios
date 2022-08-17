@@ -18,6 +18,7 @@
         --blue-cyan-cards: rgba(0, 242, 255, 0.396);
         --nav: #27ae5f86;
         --input: #ffffff;
+        --card-projects:#27ae5fc6
 
     }
 
@@ -299,7 +300,12 @@
         }
 
     }
+.technology div span{
+    display: flex;
+    justify-content: center;
+    z-index: 13;
 
+}
     .react:hover {
         transform: scale(1.2);
     }
@@ -358,42 +364,45 @@
         position: relative;
         overflow: hidden;
         cursor: pointer;
+        gap: 2rem;
 
     }
 
-    .card img {
-        display: block;
-        width: 300px;
+    .card video {
+        border-radius: 5%;
+        display: grid;
         height: 200px;
-        gap: 2rem;
-        border-radius: 10px;
+        object-fit:contain;
+        margin-bottom: 2rem;
     }
 
     .card:hover footer {
-        width: 300px;
+        width: 377px;
         height: 200px;
     }
-
     .card footer {
+        border-radius: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        width: 0;
-        height: 250px;
-        background-color: var(--blue-cyan-cards);
+        width:0;
+        height: 200px;
+        background-color: var(--card-projects);
         position: absolute;
         top: 0;
         transition: all 400ms ease-in-out;
-        border-radius: 10px;
         text-align: center;
-        margin-top: 1.8rem;
+        margin-top: 3.8rem;
     }
 
     .card footer p {
-        color: var(--background-body);
-        width: 250px;
-        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white);
+        width: 350px;
+        height: 200px;
         position: absolute;
         margin-top: -2.5rem;
         text-align: justify;
@@ -408,7 +417,7 @@
         margin-left: 1rem;
         font-size: 35px;
         text-decoration-style: none;
-        color: var(--background-body);
+        color: var(--white);
     }
 
     .card footer a:hover {
@@ -713,19 +722,20 @@
         }
 
 
-        .card img {
-            width: 400px;
-            height: 250px;
+        .card video {
+            min-width: 450px;
+            height: 300px;
 
         }
 
         .card:hover footer {
-            width: 400px;
-            height: 250px;
+            width: 530px;
+            height: 300px;
         }
 
         .card footer {
-            margin-top: 5.5rem;
+            height: 450px;
+            margin-top: 7.5rem;
         }
 
         .card footer p {
