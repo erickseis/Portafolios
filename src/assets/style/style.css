@@ -12,25 +12,29 @@
 
     :root {
         --background-body: #191d2b;
+        --nav-icon: rgba(0, 0, 0, 0.658);
         --tittle: #27ae60;
         --white: #ffffff;
         --blue-cyan: rgb(0, 242, 255);
         --blue-cyan-cards: rgba(0, 242, 255, 0.396);
-        --nav: #27ae5f86;
+        --nav: #27ae5f74;
         --input: #ffffff;
-        --card-projects:#27ae5fc6
-
+        --card-projects: #27ae5fc6;
+        --purple: linear-gradient(55deg, #eeba5e 0, #e3bf5c 5.56%, #d7c35c 11.11%, #cac75e 16.67%, #bccb62 22.22%, #aece69 27.78%, #9fd170 33.33%, #90d47a 38.89%, #7fd684 44.44%, #6cd890 50%, #56da9c 55.56%, #3adba9 61.11%, #00dcb7 66.67%, #00dcc4 72.22%, #00dcd2 77.78%, #00dcdf 83.33%, #00dcec 88.89%, #00dbf8 94.44%, #00daff 100%);
     }
 
 
     body.dark-theme {
         --background-body: #feffff;
+        --nav-icon: rgba(0, 0, 0, 0.658);
         --tittle: rgb(76, 39, 225);
         --white: #0f0e0e;
         --blue-cyan: rgb(48, 197, 53);
         --nav: rgba(76, 39, 225, 0.549);
         --blue-cyan-cards: #9215e07b;
         --input: #08080821;
+        --card-projects: #9215e0c0;
+        --purple: linear-gradient(200deg, #e1a0e3 0, #cb8fdf 16.67%, #b07ddc 33.33%, #8f6cd8 50%, #645dd5 66.67%, #1452d2 83.33%, #004acf 100%);
 
     }
 
@@ -67,11 +71,15 @@
         background-color: var(--nav);
         z-index: 10;
     }
+    .nav-links:hover{
+        background-image: var(--purple);
+    }
+   
 
 
 
     .nav-links i {
-        color: var(--white);
+        color: var(--nav-icon);
     }
 
     .nav-links i:hover {
@@ -122,18 +130,13 @@
         box-shadow: 5px 5px 10px 2px var(--tittle);
         border-radius: 50%;
     }
-
-    @keyframes mover {
-        0% {
-            transform: scale(1.5);
-        }
+    
+    .img-presentation img:hover{
+        background-image: var(--purple);
+             
+        
     }
-
-    .presentation img:hover {
-        box-shadow: 5px 5px 10px 2px var(--blue-cyan);
-        transform: scale(1.1);
-
-    }
+  
 
     .btn-cv {
 
@@ -145,8 +148,8 @@
         bottom: 5rem;
         border-radius: 30px;
         box-shadow: 1px 1px 2px 1px var(--tittle);
-        animation: move 2s infinite;
-        animation-delay: 2000ms;
+        animation: move 1s infinite;
+        animation-delay: 1000ms;
         animation-name: cv;
     }
 
@@ -159,7 +162,7 @@
 
         50% {
 
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
 
         90% {
@@ -169,9 +172,9 @@
     }
 
     .btn-cv:hover {
-        background-color: var(--nav);
+        background-image: var(--purple);
         box-shadow: 3px 3px 2px 1px var(--blue-cyan);
-        color: var(--white);
+        color: var(--background-body);
         transform: scale(1.2);
     }
 
@@ -239,7 +242,6 @@
         height: 180px;
         box-shadow: 1px 1px 10px 1px var(--tittle);
 
-
     }
 
     .box-review:hover {
@@ -247,6 +249,8 @@
         animation: move 2s infinite;
         animation-delay: 100ms;
         animation-name: abilities;
+        background-image: var(--purple);
+        color: var(--background-body)
     }
 
     @keyframes abilities {
@@ -300,12 +304,14 @@
         }
 
     }
-.technology div span{
-    display: flex;
-    justify-content: center;
-    z-index: 13;
 
-}
+    .technology div span {
+        display: flex;
+        justify-content: center;
+        z-index: 13;
+
+    }
+
     .react:hover {
         transform: scale(1.2);
     }
@@ -330,6 +336,7 @@
 
     .abilities h1 {
         font-size: 35px;
+
     }
 
     .abilities h1 span {
@@ -372,7 +379,7 @@
         border-radius: 5%;
         display: grid;
         height: 200px;
-        object-fit:contain;
+        object-fit: contain;
         margin-bottom: 2rem;
     }
 
@@ -380,49 +387,54 @@
         width: 377px;
         height: 200px;
     }
+
     .card footer {
         border-radius: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        width:0;
+        width: 0;
         height: 200px;
-        background-color: var(--card-projects);
+        background-image: var(--purple);
         position: absolute;
         top: 0;
         transition: all 400ms ease-in-out;
         text-align: center;
         margin-top: 3.8rem;
+        flex-direction: row;
+        gap: 3rem;
     }
 
     .card footer p {
+        padding-top: 1rem;
         display: flex;
+        gap: 6rem;
         justify-content: center;
         align-items: center;
-        color: var(--white);
+        color: var(--background-body);
         width: 350px;
         height: 200px;
         position: absolute;
         margin-top: -2.5rem;
         text-align: justify;
+        font-size: 18px;
     }
 
     .card footer a {
         display: flex;
-        flex-direction: column;
+     
         justify-content: center;
         align-items: center;
         margin-top: 10.5rem;
-        margin-left: 1rem;
         font-size: 35px;
         text-decoration-style: none;
-        color: var(--white);
+        color: var(--background-body);
     }
 
     .card footer a:hover {
         transform: scale(1.2);
-        color: var(--white)
+        color: var(--white);
     }
 
     .form,
@@ -525,10 +537,13 @@
             background-color: transparent;
 
         }
-
+        .nav-links:hover{
+            background-image: none;
+        }
 
 
         .nav-links i {
+            color: var(--nav-icon);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -538,6 +553,10 @@
             border-radius: 50%;
 
         }
+        .nav-links i:hover{
+            background-image: var(--purple);
+        }
+       
 
         #darkmode i {
             width: 85px;
@@ -559,8 +578,13 @@
             left: 0;
             top: 0;
             clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-            z-index: -1;
+          
         }
+        .img-presentation :hover{
+            background-image: var(--purple);
+
+        }
+
 
         .presentation img {
             background-color: var(--background-body);
@@ -639,7 +663,6 @@
 
         .review {
             display: flex;
-            z-index: -2;
             margin-top: -40rem;
             margin-left: 35rem;
 
@@ -665,11 +688,6 @@
 
             width: 120px;
         }
-
-
-
-
-
 
 
         .abilities {
@@ -736,6 +754,7 @@
         .card footer {
             height: 450px;
             margin-top: 7.5rem;
+            background-image: var(--purple);
         }
 
         .card footer p {
