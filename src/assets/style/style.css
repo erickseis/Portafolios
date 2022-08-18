@@ -20,7 +20,7 @@
         --nav: #27ae5f74;
         --input: #ffffff;
         --card-projects: #27ae5fc6;
-        --purple: linear-gradient(55deg, #eeba5e 0, #e3bf5c 5.56%, #d7c35c 11.11%, #cac75e 16.67%, #bccb62 22.22%, #aece69 27.78%, #9fd170 33.33%, #90d47a 38.89%, #7fd684 44.44%, #6cd890 50%, #56da9c 55.56%, #3adba9 61.11%, #00dcb7 66.67%, #00dcc4 72.22%, #00dcd2 77.78%, #00dcdf 83.33%, #00dcec 88.89%, #00dbf8 94.44%, #00daff 100%);
+        --purple: linear-gradient(55deg, #eeb95ed4 0, #e3bf5c 5.56%, #d7c35c 11.11%, #cac75e 16.67%, #bccb62 22.22%, #aece69 27.78%, #9fd170 33.33%, #90d47a 38.89%, #7fd684 44.44%, #6cd890 50%, #56da9c 55.56%, #3adba9 61.11%, #00dcb7 66.67%, #00dcc4 72.22%, #00dcd2 77.78%, #00dcdf 83.33%, #00dcec 88.89%, #00dbf8 94.44%, #00daff 100%);
     }
 
 
@@ -563,12 +563,6 @@
             height: 85px;
             font-size: 40px;
         }
-
-        .nav-links i:hover {
-            color: var(--blue-cyan);
-        }
-
-
         .img-presentation {
             background-color: var(--tittle);
             position: absolute;
