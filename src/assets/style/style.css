@@ -664,14 +664,15 @@
 
         .technology {
             margin-left: -40rem;
-            margin-top: 2rem;
         }
 
         .container-technologies {
             margin-left: -40rem;
             font-size: 55px;
             margin-top: 2rem;
+            padding-top: 4rem;
         }
+        
 
         .container-technologies h1,
         .container-technologies h1 span {
@@ -686,7 +687,9 @@
 
         .abilities {
             display: flex;
+            justify-content: center;
             flex-direction: column;
+            padding-top: rem;
             width: 400px;
             margin-left: 35rem;
             margin-top: -40rem;
@@ -698,7 +701,7 @@
 
         .abilities h1,
         .abilities h1 span {
-
+            margin-top: -2rem;
             font-size: 52px;
         }
 
