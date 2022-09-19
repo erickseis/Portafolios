@@ -1,361 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/src/assets/style/style.css"
+      media="screen"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portafolios</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" type="text/css" href="/src/assets/style/style.css" media="screen" />
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <title>Portafolios</title>
-</head>
-
-<body>
-  <nav class="nav">
-    <div class="nav-links" id="menu">
-      <a id="darkmode" class="nav-target"><i id="dark" class="fa-solid fa-circle-half-stroke"></i></a>
-      <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i></a>
-      <a href="#aboutMe" class="nav-link"><i class="fa-solid fa-user"></i></a>
-      <a href="#abilities" class="nav-link"><i class="fa-solid fa-heart"></i></a>
-      <a href="#projects" class="nav-link"><i class="fa-solid fa-briefcase"></i></a>
-      <a href="#form" class="nav-link"><i class="fa-solid fa-envelope"></i></a>
-    </div>
-  </nav>
-  <section id="home" class="presentation">
-    <div class="description">
-      <h1>
-        Hola, mi nombre es
+  <body>
+    <nav class="nav">
+      <div class="nav-links" id="menu">
+        <a id="darkmode" class="nav-target"
+          ><i id="dark" class="fa-solid fa-circle-half-stroke"></i
+        ></a>
+        <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i></a>
+        <a href="#aboutMe" class="nav-link"><i class="fa-solid fa-user"></i></a>
+        <a href="#abilities" class="nav-link"
+          ><i class="fa-solid fa-heart"></i
+        ></a>
+        <a href="#projects" class="nav-link"
+          ><i class="fa-solid fa-briefcase"></i
+        ></a>
+        <a href="#form" class="nav-link"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+    </nav>
+    <section id="home" class="presentation">
+      <div class="description">
+        <h1>
+          Hola, mi nombre es
+          <br />
+          <span>Erick Seis</span>
+        </h1>
+        <h2>
+          Soy Web Developer <br />
+          <span> Front End</span>
+        </h2>
         <br />
-        <span>Erick Seis</span>
-      </h1>
-      <h2>
-        Soy Web Developer <br />
-        <span> Front End</span>
-      </h2>
-      <br />
-      <p>
-        Seguir creciendo a medida que desempeño mis labores en los proyectos,
-        es algo que se me da muy bien; poseo conocimientos en varias
-        tecnologías del Desarrollo Web, las cuales puedo aportar junto a mis
-        habilidades blandas, para lograr el objetivo de seguir creciendo
-        profesionalmente en el ámbito de TI...
-      </p>
-    </div>
-    <div class="img-presentation">
-      <img class="scroll-img" id="animado" src="./src/images/ErickParaCurriculum y portafolios.gif" alt="" />
-    </div>
+        <p>
+          Seguir creciendo a medida que desempeño mis labores en los proyectos,
+          es algo que se me da muy bien; poseo conocimientos en varias
+          tecnologías del Desarrollo Web, las cuales puedo aportar junto a mis
+          habilidades blandas, para lograr el objetivo de seguir creciendo
+          profesionalmente en el ámbito de TI...
+        </p>
+      </div>
+      <div class="img-presentation">
+        <img
+          class="scroll-img"
+          id="animado"
+          src="./src/images/ErickParaCurriculum y portafolios.gif"
+          alt=""
+        />
+      </div>
 
-    <button class="btn-cv">
-      <a id="download"  target="_blank" href="https://drive.google.com/file/d/1OkdJhe4mxUHz1QF-tioge9e-44OwUkiq/view?usp=sharing"
-        download="cv"><strong> Download CV </strong>
-        <span><i class="fa-solid fa-circle-arrow-down"></i> </span></a>
-    </button>
-  </section>
+      <button class="btn-cv">
+        <a
+          id="download"
+          target="_blank"
+          href="https://drive.google.com/file/d/1OkdJhe4mxUHz1QF-tioge9e-44OwUkiq/view?usp=sharing"
+          download="cv"
+          ><strong> Download CV </strong>
+          <span><i class="fa-solid fa-circle-arrow-down"></i> </span
+        ></a>
+      </button>
+    </section>
 
-  <section class="container-aboutMe">
-    <div class="aboutMe" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-      <h1>
-        <span id="aboutMe">MAS</span> <br />
-        SOBRE <span1>MI</span1> <br /><span>INFORMACION</span>
-      </h1>
-      <br />
-      <br />
-      <p>
-        Me llamo Erick Joseph Seis Salcedo, me apasiona el mundo "TI" y
-        actualmente, soy Desarrollador Web Full Stack, poseo conocimientos en
-        Tecnologías como Node Js, React, Redux, React Router, JavaScript,
-        HTML, CSS, Bootstrap, Git y GitHub;
+    <section class="container-aboutMe">
+      <div
+        class="aboutMe"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <h1>
+          <span id="aboutMe">MAS</span> <br />
+          SOBRE <span1>MI</span1> <br /><span>INFORMACION</span>
+        </h1>
         <br />
-        Actualmente, me encuentro en el aprendizaje de más herramientas para
-        él Desarrollo Web como, Python, SQL y Algoritmos. Me interesa seguir
-        adquiriendo más conocimientos y perfeccionar los ya obtenidos.
-      </p>
-    </div>
-    <br />
-    <br />
-    <div class="review" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
-      data-aos-duration="500">
-      <span id="box-review1" class="box-review">
-        <h2 data-aos="zoom-in">+100</h2>
         <br />
-        HORAS <br />
-        DE TEORIA
-      </span>
+        <p>
+          Me llamo Erick Joseph Seis Salcedo, me apasiona el mundo "TI" y
+          actualmente, soy Desarrollador Web Full Stack, poseo conocimientos en
+          Tecnologías como Node Js, React, Redux, React Router, JavaScript,
+          HTML, CSS, Bootstrap, Git y GitHub;
+          <br />
+          Actualmente, me encuentro en el aprendizaje de más herramientas para
+          él Desarrollo Web como, Python, SQL y Algoritmos. Me interesa seguir
+          adquiriendo más conocimientos y perfeccionar los ya obtenidos.
+        </p>
+      </div>
       <br />
-      <span id="box-review2" class="box-review">
-        <h2 data-aos="zoom-in">+180</h2>
+      <br />
+      <div
+        class="review"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
+        <span id="box-review1" class="box-review">
+          <h2 data-aos="zoom-in">+100</h2>
+          <br />
+          HORAS <br />
+          DE TEORIA
+        </span>
         <br />
-        HORAS <br />
-        DE PRACTICA
-      </span>
-      <br />
-      <span id="box-review3" class="box-review">
-        <h2 data-aos="zoom-in">+7</h2>
+        <span id="box-review2" class="box-review">
+          <h2 data-aos="zoom-in">+180</h2>
+          <br />
+          HORAS <br />
+          DE PRACTICA
+        </span>
         <br />
-        PROYECTOS COMPLETOS
-      </span>
-    </div>
-    <br />
-    <br />
-    <div class="container-technologies">
-      <h1 data-aos="zoom-in">
-        Mis <br />
-        <span> Tecnologias </span>
-      </h1>
-    </div>
-    <br />
-    <div class="technology-container">
-      <div class="technology">
-        <div>
-          <span>React</span>
-          <img data-aos="flip-right" class="img-technology react"
-            src="https://enriquezapata.com/wp-content/uploads/2021/12/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac250cda95.4452823815233628530527.png"
-            alt="react-logo" />
-        </div>
-        <div>
-          <span>Redux</span>
-          <img data-aos="flip-right" class="img-technology react" src="https://cdn.worldvectorlogo.com/logos/redux.svg"
-            alt="redux-logo" />
-        </div>
-        <div>
-          <span>React Router</span>
-          <img data-aos="flip-right" class="img-technology react"
-            src="https://reacttraining.com/images/logo-icon-512.png" alt="reactRouter-logo" />
-        </div>
-        <div>
-          <span>JavaScript</span>
-          <img data-aos="flip-right" class="img-technology react"
-            src="https://zaidakary.github.io/Portafolio/imagenes/javascript.jpg" alt="javascript-logo" />
-        </div>
-        <div>
-          <span>HTML</span>
-          <img data-aos="flip-right" class="img-technology react"
-            src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg" alt="html-logo" />
-        </div>
-        <div>
-          <span>CSS</span>
-          <img data-aos="flip-right" class="img-technology react"
-            src="https://icons-for-free.com/download-icon-css3+internet+style+technology+web+website+icon-1320192729058533072_0.svg"
-            alt="css-logo" />
-        </div>
-        <div>
-          <span>Git</span>
-          <img data-aos="flip-right" class="img-technology react"
-            src="https://3.bp.blogspot.com/-xhNpNJJyQhk/XIe4GY78RQI/AAAAAAAAItc/ouueFUj2Hqo5dntmnKqEaBJR4KQ4Q2K3ACK4BGAYYCw/s1600/logo%2Bgit%2Bicon.png"
-            alt="git-logo" />
-        </div>
-        <div>
-          <span>GitHub</span>
-          <img data-aos="flip-right" class="img-technology react" src="https://datacuber.cl/images/github/github.png"
-            alt="github-logo" />
-        </div>
+        <span id="box-review3" class="box-review">
+          <h2 data-aos="zoom-in">+7</h2>
+          <br />
+          PROYECTOS COMPLETOS
+        </span>
       </div>
-    </div>
-    <br />
-   
-
-    <div id="abilities" class="abilities-container">
-      <br>
-      <h1 data-aos="zoom-in">Habilidades <br> <span1> Blandas </span1></h1>
-      <br>
-      <br>
-      <div data-aos="flip-left" class="abilities">
-        <div>
-          <span>Resolutivo</span>
-         
-        </div>
-        <div>
-          <span>Comunicativo</span>
-          
-        </div>
-        <div>
-          <span>Adaptabilidad</span>
-          
-        </div>
-        <div>
-          <span>Colaborativo</span>
-          
-        </div>
-        <div>
-          <span>Proactivo</span>
-         
-        </div>
-        <div>
-          <span>Liderazgo</span>
-         
-        </div>
-             </div>
-    </div>
-   
-   
-    <br />
-    <br />
-
-    </div>
-  </section>
-  <br />
-  <section id="projects" class="projects-container">
-    <h1 data-aos="zoom-in">PROYECTOS</h1>
-    <div class="grid">
-      <div class="projects card">
-        <h2>Pokedex</h2>
-        <video data-aos="flip-left" muted autoplay loop>
-          <source src="./src/images/pokemonPokedex.mp4" />
-        </video>
-        <footer>
-          <p>
-            Construida con las tecnologias: React, Redux, React Router,
-            javaScript, HTML, CSS, ocupando la POKEAPI para desarrollarla, nos
-            muestra una guia de stats de diversos Pokemon. Tecnologias
-            utilizadas React, Redux, React Router, HTML y CSS.
-          </p>
-          <a target="_blank" href="https://github.com/erickseis/Pokedex"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://pokedexerick.netlify.app/"><i class="fa-solid fa-globe"></i></a>
-        </footer>
-      </div>
-      <div class="projects card">
-        <h2>Crud</h2>
-        <video data-aos="flip-left" muted autoplay loop>
-          <source src="./src/images/crud.mp4" type="video/mp4" />
-        </video>
-        <footer>
-          <p>
-            Proyecto donde ocupe herramientas de React con Axios mientras se
-            consume una API con los metodos Get, Post, Delete. Tecnologias
-            utilizadas React, HTML y CSS.
-          </p>
-          <a target="_blank" href="https://github.com/erickseis/Api-Users-Put-Post-Delete-"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://cards-crud.netlify.app/"><i class="fa-solid fa-globe"></i></a>
-        </footer>
-      </div>
-      <div class="projects card">
-        <h2>App Clima</h2>
-        <video data-aos="flip-left" muted autoplay loop>
-          <source src="./src/images/clima.mp4" />
-        </video>
-        <footer>
-          <p>
-            Construida para mostrar los datos del tiempo en tu localizacion
-            ocupa una API que permite interactuar con estos datos. Tecnologias
-            utilizadas React, HTML y CSS.
-          </p>
-          <a target="_blank" href="https://github.com/erickseis/AppClima"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://appclimatelocation.netlify.app/"><i class="fa-solid fa-globe"></i></a>
-        </footer>
-      </div>
-      <div class="projects card">
-        <h2>Pokedex Basic</h2>
-        <video class="" data-aos="flip-left" muted autoplay loop>
-          <source src="./src/images/pokedexSimple.mp4" />
-        </video>
-        <footer>
-          <p>
-            Una version mas sencilla de la pokedex con un diseño amigable e
-            intuitivo, muestra las caracteristicas de cada pokemon.
-            Tecnologias utilizadas React, HTML y CSS.
-          </p>
-          <a target="_blank" href="https://github.com/erickseis/Pokedex-basico"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://pokedexbasicapi.netlify.app/"><i class="fa-solid fa-globe"></i></a>
-        </footer>
-      </div>
-      <div class="projects card">
-        <h2>Rick and Morty</h2>
-        <video data-aos="flip-left" muted autoplay loop>
-          <source src="./src/images/ryckandmorty.mp4" />
-        </video>
-        <footer>
-          <p>
-            Concebida a partir del consumo de una API, ostenta paginacion para
-            separar la cantidad de personajes a mostrar en pantalla, asi como
-            sus caracteristicas, cuenta con una barra para busqueda
-            personalizada por id de cada planeta. Tecnologias utilizadas
-            React, Axios, HTML y CSS.
-          </p>
-          <a target="_blank" href="https://github.com/erickseis/Rick-and-Morty"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://rickandmortyappforapi.netlify.app/"><i class="fa-solid fa-globe"></i></a>
-        </footer>
-      </div>
-      <div class="projects card">
-        <h2>Ecommerce JavaScript</h2>
-        <video data-aos="flip-left" muted autoplay loop>
-          <source src="./src/images/storeAcademlo.mp4" />
-        </video>
-        <footer>
-          <p>
-            Proyecto creado con la finalidad de mostrar articulos de una
-            tienda, posee un carrito de compras donde se pueden cargar estos
-            productos ocupando para ello "local storage", para almacenar la
-            informacion del usuario, Tecnologias utilizadas JavaScript
-            Vanilla, HTML y CSS.
-          </p>
-          <a target="_blank" href="https://github.com/erickseis/Ecommerce-Vanilla-JavaScript"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://ecommercelocalstorage.netlify.app/"><i class="fa-solid fa-globe"></i></a>
-        </footer>
-      </div>
-      <div class="projects card">
-        <h2>Frases Celebres</h2>
-        <video data-aos="flip-left" muted autoplay loop>
-          <source src="./src/images/tarjetas.mp4" />
-        </video>
-        <footer>
-          <p>
-            Proyecto realizado a partir de un archivo JSON, donde nos comparte
-            frases celebres de algunos visionarios del pasado, al cambiar la
-            frase se le asigna un nuevo color al estilo mostrado en pantalla,
-            React, HTML y CSS
-          </p>
-          <a target="_blank" href="https://github.com/erickseis/ReactEntregable1"><i class="fa-brands fa-github"></i></a>
-          <a target="_blank" href="https://jsoncard.netlify.app/"><i class="fa-solid fa-globe"></i></a>
-        </footer>
-      </div>
-    </div>
-  </section>
-  <br />
-  <br />
-  <section class="form-container" id="form">
-    <h1 data-aos="zoom-in">CONTACTO</h1>
-    <br />
-    <form data-aos="fade-right" class="Form" name="contact" netlify>
-      <label for="name"></label>
-      <input type="text" name="name" id="name" placeholder="Nombre" />
       <br />
-      <label for="phone"></label>
-      <input type="text" name="phone" id="phone" placeholder="Telefono" />
       <br />
-      <label for="email"></label>
-      <input type="text" name="email" id="email" placeholder="Correo" />
+      <div class="container-technologies">
+        <h1 data-aos="zoom-in">
+          Mis <br />
+          <span> Tecnologias </span>
+        </h1>
+      </div>
       <br />
-      <label for="message"></label>
-      <textarea name="message" i d="message" cols="30" rows="5" placeholder="Escribe un Mensaje"></textarea>
+      <div class="technology-container">
+        <div class="technology">
+          <div>
+            <span>React</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://enriquezapata.com/wp-content/uploads/2021/12/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac250cda95.4452823815233628530527.png"
+              alt="react-logo"
+            />
+          </div>
+          <div>
+            <span>Redux</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://cdn.worldvectorlogo.com/logos/redux.svg"
+              alt="redux-logo"
+            />
+          </div>
+          <div>
+            <span>React Router</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://reacttraining.com/images/logo-icon-512.png"
+              alt="reactRouter-logo"
+            />
+          </div>
+          <div>
+            <span>JavaScript</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://zaidakary.github.io/Portafolio/imagenes/javascript.jpg"
+              alt="javascript-logo"
+            />
+          </div>
+          <div>
+            <span>HTML</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg"
+              alt="html-logo"
+            />
+          </div>
+          <div>
+            <span>CSS</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://icons-for-free.com/download-icon-css3+internet+style+technology+web+website+icon-1320192729058533072_0.svg"
+              alt="css-logo"
+            />
+          </div>
+          <div>
+            <span>Git</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://3.bp.blogspot.com/-xhNpNJJyQhk/XIe4GY78RQI/AAAAAAAAItc/ouueFUj2Hqo5dntmnKqEaBJR4KQ4Q2K3ACK4BGAYYCw/s1600/logo%2Bgit%2Bicon.png"
+              alt="git-logo"
+            />
+          </div>
+          <div>
+            <span>GitHub</span>
+            <img
+              data-aos="flip-right"
+              class="img-technology react"
+              src="https://datacuber.cl/images/github/github.png"
+              alt="github-logo"
+            />
+          </div>
+        </div>
+      </div>
       <br />
-      <p class="btn-submit">
-        <button class="btn-form" type="submit">Enviar</button>
-      </p>
-    </form>
+
+      <div id="abilities" class="abilities-container">
+        <br />
+        <h1 data-aos="zoom-in">
+          Habilidades <br />
+          <span1> Blandas </span1>
+        </h1>
+        <br />
+        <br />
+        <div data-aos="flip-left" class="abilities">
+          <div>
+            <span>Resolutivo</span>
+          </div>
+          <div>
+            <span>Comunicativo</span>
+          </div>
+          <div>
+            <span>Adaptabilidad</span>
+          </div>
+          <div>
+            <span>Colaborativo</span>
+          </div>
+          <div>
+            <span>Proactivo</span>
+          </div>
+          <div>
+            <span>Liderazgo</span>
+          </div>
+        </div>
+        <br />
+        <br />
+      </div>
+    </section>
+    <br />
+    <section id="projects" class="projects-container">
+      <h1 data-aos="zoom-in">PROYECTOS</h1>
+      <div class="grid">
+        <div class="projects card">
+          <h2>Pokedex</h2>
+          <video data-aos="flip-left" muted autoplay loop>
+            <source src="./src/images/pokemonPokedex.mp4" />
+          </video>
+          <footer>
+            <p>
+              Construida con las tecnologias: React, Redux, React Router,
+              javaScript, HTML, CSS, ocupando la POKEAPI para desarrollarla, nos
+              muestra una guia de stats de diversos Pokemon. Tecnologias
+              utilizadas React, Redux, React Router, HTML y CSS.
+            </p>
+            <a target="_blank" href="https://github.com/erickseis/Pokedex"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://pokedexerick.netlify.app/"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </footer>
+        </div>
+        <div class="projects card">
+          <h2>Crud</h2>
+          <video data-aos="flip-left" muted autoplay loop>
+            <source src="./src/images/crud.mp4" type="video/mp4" />
+          </video>
+          <footer>
+            <p>
+              Proyecto donde ocupe herramientas de React con Axios mientras se
+              consume una API con los metodos Get, Post, Delete. Tecnologias
+              utilizadas React, HTML y CSS.
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/erickseis/Api-Users-Put-Post-Delete-"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://cards-crud.netlify.app/"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </footer>
+        </div>
+        <div class="projects card">
+          <h2>App Clima</h2>
+          <video data-aos="flip-left" muted autoplay loop>
+            <source src="./src/images/clima.mp4" />
+          </video>
+          <footer>
+            <p>
+              Construida para mostrar los datos del tiempo en tu localizacion
+              ocupa una API que permite interactuar con estos datos. Tecnologias
+              utilizadas React, HTML y CSS.
+            </p>
+            <a target="_blank" href="https://github.com/erickseis/AppClima"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://appclimatelocation.netlify.app/"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </footer>
+        </div>
+        <div class="projects card">
+          <h2>Pokedex Basic</h2>
+          <video class="" data-aos="flip-left" muted autoplay loop>
+            <source src="./src/images/pokedexSimple.mp4" />
+          </video>
+          <footer>
+            <p>
+              Una version mas sencilla de la pokedex con un diseño amigable e
+              intuitivo, muestra las caracteristicas de cada pokemon.
+              Tecnologias utilizadas React, HTML y CSS.
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/erickseis/Pokedex-basico"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://pokedexbasicapi.netlify.app/"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </footer>
+        </div>
+        <div class="projects card">
+          <h2>Rick and Morty</h2>
+          <video data-aos="flip-left" muted autoplay loop>
+            <source src="./src/images/ryckandmorty.mp4" />
+          </video>
+          <footer>
+            <p>
+              Concebida a partir del consumo de una API, ostenta paginacion para
+              separar la cantidad de personajes a mostrar en pantalla, asi como
+              sus caracteristicas, cuenta con una barra para busqueda
+              personalizada por id de cada planeta. Tecnologias utilizadas
+              React, Axios, HTML y CSS.
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/erickseis/Rick-and-Morty"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://rickandmortyappforapi.netlify.app/"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </footer>
+        </div>
+        <div class="projects card">
+          <h2>Ecommerce JavaScript</h2>
+          <video data-aos="flip-left" muted autoplay loop>
+            <source src="./src/images/storeAcademlo.mp4" />
+          </video>
+          <footer>
+            <p>
+              Proyecto creado con la finalidad de mostrar articulos de una
+              tienda, posee un carrito de compras donde se pueden cargar estos
+              productos ocupando para ello "local storage", para almacenar la
+              informacion del usuario, Tecnologias utilizadas JavaScript
+              Vanilla, HTML y CSS.
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/erickseis/Ecommerce-Vanilla-JavaScript"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://ecommercelocalstorage.netlify.app/"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </footer>
+        </div>
+        <div class="projects card">
+          <h2>Frases Celebres</h2>
+          <video data-aos="flip-left" muted autoplay loop>
+            <source src="./src/images/tarjetas.mp4" />
+          </video>
+          <footer>
+            <p>
+              Proyecto realizado a partir de un archivo JSON, donde nos comparte
+              frases celebres de algunos visionarios del pasado, al cambiar la
+              frase se le asigna un nuevo color al estilo mostrado en pantalla,
+              React, HTML y CSS
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/erickseis/ReactEntregable1"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://jsoncard.netlify.app/"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </footer>
+        </div>
+      </div>
+    </section>
     <br />
     <br />
-    <div class="contaApp">
-      <p data-aos="fade-left">
-        <a target="_blank" href="https://www.linkedin.com/in/erick-seis-b6418223a/"><i class="fa-brands fa-linkedin"></i></a>
-      </p>
-      <p data-aos="fade-left">
-        <a target="_blank" href="https://github.com/erickseis">
-          <i class="fa-brands fa-square-github"></i></a>
-      </p>
-    </div>
-  </section>
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+    <section class="form-container" id="form">
+      <h1 data-aos="zoom-in">CONTACTO</h1>
+      <br />
+      <form data-aos="fade-right" class="Form" name="contact" netlify>
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="Nombre" />
+        <br />
+        <label for="phone"></label>
+        <input type="text" name="phone" id="phone" placeholder="Telefono" />
+        <br />
+        <label for="email"></label>
+        <input type="text" name="email" id="email" placeholder="Correo" />
+        <br />
+        <label for="message"></label>
+        <textarea
+          name="message"
+          i
+          d="message"
+          cols="30"
+          rows="5"
+          placeholder="Escribe un Mensaje"
+        ></textarea>
+        <br />
+        <p class="btn-submit">
+          <button class="btn-form" type="submit">Enviar</button>
+        </p>
+      </form>
+      <br />
+      <br />
+      <div class="contaApp">
+        <p data-aos="fade-left">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/erick-seis-b6418223a/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </p>
+        <p data-aos="fade-left">
+          <a target="_blank" href="https://github.com/erickseis">
+            <i class="fa-brands fa-square-github"></i
+          ></a>
+        </p>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-  <script type="module" src="/src/assets/js/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</body>
-
+    <script type="module" src="/src/assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
 </html>
