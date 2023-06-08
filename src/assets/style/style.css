@@ -116,6 +116,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .description {
@@ -135,7 +136,7 @@ h2 span {
 }
 
 .description p {
-  font-size: 15px;
+  font-size: 17px;
   padding-right: 2rem;
   padding-left: 2rem;
   margin-bottom: 1rem;
@@ -145,7 +146,7 @@ h2 span {
 .presentation img {
   position: absolute;
   margin-left: -9rem;
-  bottom: 9rem;
+  bottom: 6rem;
   width: 300px;
   box-shadow: 5px 5px 10px 2px var(--tittle);
   border-radius: 50%;
@@ -281,7 +282,7 @@ h2 span {
   width: 400px;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .review {
@@ -659,7 +660,7 @@ textarea {
   .btn-cv {
     width: 200px;
     height: 60px;
-    bottom: 2rem;
+    bottom: 1rem;
     font-size: 20px;
     margin-left: 28rem;
   }
