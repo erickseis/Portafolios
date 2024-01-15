@@ -543,6 +543,11 @@ textarea {
   background-color: var(--tittle);
   box-shadow: 3px 3px 5px 1px var(--blue-cyan);
 }
+#iframe {
+  width: 350px;
+  height: 200px;
+  border-radius: 5%;
+}
 
 @media (min-width: 1000px) {
   .nav-links {
@@ -800,5 +805,9 @@ textarea {
 
   .btn-form:hover {
     font-size: 35px;
+  }
+  #iframe {
+    width: 530px;
+    height: 300px;
   }
 }
