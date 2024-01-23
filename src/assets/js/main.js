@@ -1,8 +1,8 @@
 let body = document.querySelector("body")
 let themeIcon = document.getElementById("dark")
 let espanol = document.getElementById("spanol");
-let portugues = document.getElementById("portugues")
-let english = document.getElementById("english")
+// let portugues = document.getElementById("portugues")
+// let english = document.getElementById("english")
 let modal = document.getElementById("lenguage-modal");
 
 espanol.addEventListener("click", (e) => {
@@ -10,19 +10,19 @@ espanol.addEventListener("click", (e) => {
     modal.style.display = "none";
 });
 
-portugues.addEventListener("click", (e) => {
-    e.preventDefault();
-    window.location.href = ("../../../index.pt.html")
-    modal.style.display = "none";
+// portugues.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     window.location.href = ("../../../index.pt.html")
+//     modal.style.display = "none";
 
 
-});
-english.addEventListener("click", (e) => {
-    e.preventDefault();
-    window.location.href = ("../../../index.en.html")
-    modal.style.display = "none";
+// });
+// english.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     window.location.href = ("../../../index.en.html")
+//     modal.style.display = "none";
 
-});
+// });
 
 
 themeIcon.addEventListener("click", (e) => {
