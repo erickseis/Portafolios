@@ -1,19 +1,5 @@
 let body = document.querySelector("body")
 let themeIcon = document.getElementById("dark")
-let espanol = document.getElementById("spanol");
-
-
-document.getElementById('portugues-link').addEventListener('click', function (event) {
-    event.preventDefault();
-    document.getElementById('lenguage-modal').classList.add('hidden');
-    window.location.href = "/index.pt.html";
-});
-
-document.getElementById('english-link').addEventListener('click', function (event) {
-    event.preventDefault();
-    document.getElementById('lenguage-modal').classList.add('hidden');
-    window.location.href = "/index.en.html";
-});
 
 
 themeIcon.addEventListener("click", (e) => {
