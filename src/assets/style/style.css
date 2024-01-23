@@ -83,7 +83,7 @@ body {
   position: fixed;
   z-index: 100000;
   backdrop-filter: blur(10px);
-  display: none;
+  /* display: none; */
 }
 .lenguage-modal ul {
   width: 100%;

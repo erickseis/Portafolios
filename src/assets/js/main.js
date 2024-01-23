@@ -3,18 +3,10 @@ let themeIcon = document.getElementById("dark")
 let espanol = document.getElementById("spanol");
 let modal = document.getElementById("lenguage-modal");
 
-// Comprueba si el modal ya estaba oculto antes de refrescar la página
-if (localStorage.getItem("modalEscondido") === "true") {
-    modal.style.display = "none";
-}
-
 espanol.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "none";
-    window.location.href = "../../../index.html";
 
-    // Guarda el estado del modal en el almacenamiento local
-    localStorage.setItem("modalEscondido", "true");
 });
 
 themeIcon.addEventListener("click", (e) => {
