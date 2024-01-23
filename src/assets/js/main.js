@@ -8,7 +8,6 @@ let modal = document.getElementById("lenguage-modal");
 espanol.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "none";
-    localStorage.setItem("idiomaElegido", "espanol");
 });
 
 
