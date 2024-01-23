@@ -8,8 +8,9 @@ let modal = document.getElementById("lenguage-modal");
 espanol.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "none";
-
+    localStorage.setItem("idiomaElegido", "espanol");
 });
+
 
 let idiomaElegido = localStorage.getItem("idiomaElegido");
 if (idiomaElegido) {
@@ -26,8 +27,6 @@ portugues.addEventListener("click", (e) => {
     e.preventDefault();
     window.location.href = ("../../../index.pt.html")
     modal.style.display = "none";
-    localStorage.setItem("idiomaElegido", "portugues");
-
 
 
 });
@@ -35,8 +34,6 @@ english.addEventListener("click", (e) => {
     e.preventDefault();
     window.location.href = ("../../../index.en.html")
     modal.style.display = "none";
-    localStorage.setItem("idiomaElegido", "english");
-
 
 });
 
