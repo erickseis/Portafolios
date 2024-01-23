@@ -1,11 +1,25 @@
 let body = document.querySelector("body")
 let themeIcon = document.getElementById("dark")
 let espanol = document.getElementById("spanol");
+let portugues = document.getElementById("portugues")
+let english = document.getElementById("english")
 let modal = document.getElementById("lenguage-modal");
 
 espanol.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "none";
+
+});
+portugues.addEventListener("click", (e) => {
+    e.preventDefault();
+    modal.style.display = "none";
+    window.location.href = ("../../../index.pt.html")
+
+});
+english.addEventListener("click", (e) => {
+    e.preventDefault();
+    modal.style.display = "none";
+    window.location.href = ("../../../index.en.html")
 
 });
 
