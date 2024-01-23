@@ -12,14 +12,14 @@ espanol.addEventListener("click", (e) => {
 });
 portugues.addEventListener("click", (e) => {
     e.preventDefault();
-    modal.style.display = "none";
     window.location.href = ("../../../index.pt.html")
+    modal.style.display = "none";
 
 });
 english.addEventListener("click", (e) => {
     e.preventDefault();
-    modal.style.display = "none";
     window.location.href = ("../../../index.en.html")
+    modal.style.display = "none";
 
 });
 
