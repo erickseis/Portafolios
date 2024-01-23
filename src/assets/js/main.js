@@ -6,7 +6,6 @@ let espanol = document.getElementById("spanol");
 let modal = document.getElementById("lenguage-modal");
 
 espanol.addEventListener("click", (e) => {
-    e.preventDefault();
     modal.style.display = "none";
 });
 
