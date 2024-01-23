@@ -73,6 +73,9 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--white);
 }
+.hidden {
+  display: none;
+}
 .lenguage-modal {
   background-color: rgba(128, 128, 128, 0.534);
   width: 100%;

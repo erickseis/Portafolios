@@ -1,27 +1,19 @@
 let body = document.querySelector("body")
 let themeIcon = document.getElementById("dark")
 let espanol = document.getElementById("spanol");
-// let portugues = document.getElementById("portugues")
-// let english = document.getElementById("english")
-let modal = document.getElementById("lenguage-modal");
 
-espanol.addEventListener("click", (e) => {
-    modal.style.display = "none";
+
+document.getElementById('portugues-link').addEventListener('click', function (event) {
+    event.preventDefault();
+    document.getElementById('lenguage-modal').classList.add('hidden');
+    window.location.href = "/index.pt.html";
 });
 
-// portugues.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     window.location.href = ("../../../index.pt.html")
-//     modal.style.display = "none";
-
-
-// });
-// english.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     window.location.href = ("../../../index.en.html")
-//     modal.style.display = "none";
-
-// });
+document.getElementById('english-link').addEventListener('click', function (event) {
+    event.preventDefault();
+    document.getElementById('lenguage-modal').classList.add('hidden');
+    window.location.href = "/index.en.html";
+});
 
 
 themeIcon.addEventListener("click", (e) => {
