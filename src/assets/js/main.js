@@ -10,18 +10,36 @@ espanol.addEventListener("click", (e) => {
     modal.style.display = "none";
 
 });
+
+let idiomaElegido = localStorage.getItem("idiomaElegido");
+if (idiomaElegido) {
+    // Si el usuario ya eligió un idioma, oculta el modal y carga la página en ese idioma
+    modal.style.display = "none";
+    cargarIdioma(idiomaElegido);
+} else {
+    // Si el usuario no ha elegido un idioma, muestra el modal de elección de idioma
+    modal.style.display = "block";
+}
+
+
 portugues.addEventListener("click", (e) => {
     e.preventDefault();
     window.location.href = ("../../../index.pt.html")
     modal.style.display = "none";
+    localStorage.setItem("idiomaElegido", "portugues");
+
+
 
 });
 english.addEventListener("click", (e) => {
     e.preventDefault();
     window.location.href = ("../../../index.en.html")
     modal.style.display = "none";
+    localStorage.setItem("idiomaElegido", "english");
+
 
 });
+
 
 themeIcon.addEventListener("click", (e) => {
 
