@@ -7,12 +7,12 @@ window.addEventListener("DOMContentLoaded", () => {
 })
 
 window.addEventListener("load", () => {
+    setTimeout(() => {
 
-
-    hideLoader();
-    ScrollReveal().reveal('.scroll-img');
-    ScrollReveal().reveal('#animado');
-
+        hideLoader();
+        ScrollReveal().reveal('.scroll-img');
+        ScrollReveal().reveal('#animado');
+    }, 1000)
 
 })
 
