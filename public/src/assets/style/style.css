@@ -446,10 +446,9 @@ h2 span {
 }
 
 .projects-container {
-  width: 350px;
   display: grid;
   gap: 2rem;
-  margin-left: -4rem;
+  margin-left: 2rem;
 }
 
 .card {
