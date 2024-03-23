@@ -491,6 +491,9 @@ h2 span {
   gap: 2rem;
   list-style: none;
 }
+.contain-tec.pokedex ul {
+  margin-left: -2.5rem;
+}
 .contain-tec img {
   width: 40px;
 }
