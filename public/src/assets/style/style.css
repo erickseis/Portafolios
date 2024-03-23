@@ -449,77 +449,68 @@ h2 span {
   display: grid;
   gap: 2rem;
 }
-
-.card {
+.grid {
   display: grid;
-  grid-template-columns: 1fr;
   place-items: center;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
+  text-align: center;
   gap: 2rem;
 }
 
-.card video {
-  border-radius: 5%;
-  display: grid;
-  height: 200px;
-  object-fit: contain;
-  margin-bottom: 2rem;
-}
-
-.card:hover footer {
-  width: 377px;
-  height: 200px;
-}
-
-.card footer {
-  border-radius: 5%;
+.card {
+  position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  overflow: hidden;
-  width: 0;
-  height: 200px;
-  background-image: var(--purple);
-  position: absolute;
-  top: 0;
-  transition: all 400ms ease-in-out;
-  text-align: center;
-  margin-top: 3.8rem;
-  flex-direction: row;
-  gap: 3rem;
-}
-
-.card footer p {
-  padding-top: 1rem;
-  display: flex;
-  gap: 6rem;
-  justify-content: center;
-  align-items: center;
-  color: var(--background-body);
   width: 350px;
-  height: 200px;
+  height: 400px;
+}
+.card-secondary {
+  background-color: var(--white);
+  color: gray;
+  height: 250px;
+  margin-top: 10rem;
   position: absolute;
-  margin-top: -2.5rem;
-  text-align: justify;
-  font-size: 18px;
+  clip-path: polygon(0 0, 0 0, 870% 121%, 0% 100%);
+  border-radius: 0% 0% 10% 10%;
 }
-
-.card footer a {
+.card-secondary h2 {
+  margin-top: 1.5rem;
+}
+.card-secondary p {
+  padding: 0.5rem 2rem;
+}
+.contain-tec ul {
   display: flex;
-
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+.contain-tec img {
+  width: 40px;
+}
+.card-footer {
+  display: flex;
   align-items: center;
-  margin-top: 10.5rem;
-  font-size: 35px;
-  text-decoration-style: none;
-  color: var(--background-body);
+  justify-content: center;
+  gap: 4rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #314652;
+  width: 100%;
+  height: 50px;
+  clip-path: polygon(0 0, 0% 0, 464% 100%, 0% 103%);
+  border-radius: 0% 0% 20px 20px;
+}
+.card-footer a {
+  text-decoration: none;
+  color: var(--card-projects);
+  font-size: 25px;
 }
 
-.card footer a:hover {
-  transform: scale(1.2);
-  color: var(--white);
+.card video {
+  border-radius: 13%;
+  object-fit: contain;
 }
 
 .form,
@@ -694,11 +685,6 @@ textarea {
     border-radius: 50%;
   }
 
-  .description h1,
-  h2 {
-    font-size: 60px;
-  }
-
   .description h1 span,
   h2 span {
     font-size: 70px;
@@ -777,44 +763,7 @@ textarea {
     display: grid;
     padding-left: 6rem;
     padding-right: 6rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .projects-container h1 {
-    font-size: 55px;
-  }
-
-  .card h2 {
-    font-size: 35px;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .card video {
-    min-width: 450px;
-    height: 300px;
-  }
-
-  .card:hover footer {
-    width: 530px;
-    height: 300px;
-  }
-
-  .card footer {
-    height: 450px;
-    margin-top: 7.5rem;
-    background-image: var(--purple);
-  }
-
-  .card footer p {
-    font-size: 20px;
-    width: 350px;
-    margin-top: -5.5rem;
-  }
-
-  .card footer a {
-    margin-top: 11.5rem;
-    font-size: 50px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .form-container H1 {
