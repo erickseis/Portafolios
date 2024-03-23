@@ -479,9 +479,14 @@ h2 span {
 .card-secondary p {
   padding: 0.5rem 2rem;
 }
+
 .contain-tec ul {
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
+  bottom: 3rem;
+  left: 25%;
+  align-items: center;
   justify-content: center;
   gap: 2rem;
   list-style: none;
