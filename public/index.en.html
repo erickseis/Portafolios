@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Erick Seis portfolio. Full Stack Web Developer showcasing projects, skills, and contact information." />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -31,39 +32,58 @@
     <section id="app" class="ocult-app">
       <nav class="nav">
         <div class="nav-links" id="menu">
-          <a id="darkmode" class="nav-target"
-            ><i id="dark" class="fa-solid fa-circle-half-stroke"></i
-          ></a>
-          <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i></a>
-          <a href="#aboutMe" class="nav-link"
-            ><i class="fa-solid fa-user"></i
-          ></a>
-          <a href="#abilities" class="nav-link"
-            ><i class="fa-solid fa-heart"></i
-          ></a>
-          <a href="#projects" class="nav-link"
-            ><i class="fa-solid fa-briefcase"></i
-          ></a>
-          <a href="#form" class="nav-link"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
+          <ul class="nav-links" id="menu">
+            <li class="container-dark-mode">
+              <a id="darkmode" class="nav-target" role="button" aria-pressed="false" aria-label="Toggle dark mode"
+                ><i id="dark" class="fa-solid fa-circle-half-stroke"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#home" class="nav-link"
+                ><i class="fa-solid fa-house"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#aboutMe" class="nav-link"
+                ><i class="fa-solid fa-user"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#abilities" class="nav-link"
+                ><i class="fa-solid fa-heart"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link"
+                ><i class="fa-solid fa-briefcase"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#form" class="nav-link"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </nav>
       <div class="list-lenguage">
         <ul>
           <li>
             <a href="./index.pt.html"
-              ><img src="./src/images/pt-logo.svg" alt="logo-pt"
+              ><img src="./src/images/pt-logo.svg" alt="logo-pt" loading="lazy" decoding="async"
             /></a>
           </li>
           <li>
             <a href="./index.en.html"
-              ><img src="./src/images/en-logo.svg" alt="logo-en"
+              ><img src="./src/images/en-logo.svg" alt="logo-en" loading="lazy" decoding="async"
             /></a>
           </li>
           <li>
             <a href="./index.html"
-              ><img src="./src/images/es-logo.svg" alt="logo-es"
+              ><img src="./src/images/es-logo.svg" alt="logo-es" loading="lazy" decoding="async"
             /></a>
           </li>
         </ul>
@@ -94,14 +114,14 @@
           <img
             id="animado"
             src="./src/images/ErickParaCurriculum_600px.jpeg"
-            alt=""
+            alt="Erick Seis profile photo"
           />
         </div>
 
         <button class="btn-cv">
           <a
             id="download"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1mEnvuDwPB13r2IlLO4xBJR0E8tpH49oM/view?usp=sharing"
             download="cv"
             ><strong> Download CV </strong>
@@ -183,7 +203,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://enriquezapata.com/wp-content/uploads/2021/12/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac250cda95.4452823815233628530527.png"
-                alt="react-logo"
+                alt="react-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -192,7 +212,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://cdn.worldvectorlogo.com/logos/redux.svg"
-                alt="redux-logo"
+                alt="redux-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -201,7 +221,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://www.nicepng.com/png/full/412-4129382_if-you-happened-to-work-with-facebooks-react.png"
-                alt="reactRouter-logo"
+                alt="reactRouter-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -210,7 +230,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://zaidakary.github.io/Portafolio/imagenes/javascript.jpg"
-                alt="javascript-logo"
+                alt="javascript-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -219,7 +239,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg"
-                alt="html-logo"
+                alt="html-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -228,7 +248,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://i.imgflip.com/6ejuoo.png"
-                alt="css-logo"
+                alt="css-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -237,7 +257,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/node_js_logo-1024.png"
-                alt="css-logo"
+                alt="node-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -246,7 +266,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://www.mementotech.in/assets/images/icons/express.png"
-                alt="css-logo"
+                alt="express-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -255,7 +275,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://cdn.icon-icons.com/icons2/2699/PNG/512/postgresql_src_logo_icon_170834.png"
-                alt="css-logo"
+                alt="postgres-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -264,7 +284,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://3.bp.blogspot.com/-xhNpNJJyQhk/XIe4GY78RQI/AAAAAAAAItc/ouueFUj2Hqo5dntmnKqEaBJR4KQ4Q2K3ACK4BGAYYCw/s1600/logo%2Bgit%2Bicon.png"
-                alt="git-logo"
+                alt="git-logo" loading="lazy" decoding="async"
               />
             </div>
             <div>
@@ -273,7 +293,7 @@
                 data-aos="flip-right"
                 class="img-technology react"
                 src="https://datacuber.cl/images/github/github.png"
-                alt="github-logo"
+                alt="github-logo" loading="lazy" decoding="async"
               />
             </div>
           </div>
@@ -319,7 +339,7 @@
         <h1 data-aos="zoom-in">PROJECTS</h1>
         <div class="grid">
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/pokedex.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -334,41 +354,41 @@
                   <li>
                     <img
                       src="https://enriquezapata.com/wp-content/uploads/2021/12/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac250cda95.4452823815233628530527.png"
-                      alt="react-logo"
+                      alt="react-logo" loading="lazy" decoding="async"
                     />
                   </li>
                   <li>
                     <img
                       src="https://cdn.worldvectorlogo.com/logos/redux.svg"
-                      alt="redux-logo"
+                      alt="redux-logo" loading="lazy" decoding="async"
                     />
                   </li>
                   <li>
                     <img
                       src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg"
-                      alt="html-logo"
+                      alt="html-logo" loading="lazy" decoding="async"
                     />
                   </li>
                   <li>
                     <img
                       src="https://i.imgflip.com/6ejuoo.png"
-                      alt="css-logo"
+                      alt="css-logo" loading="lazy" decoding="async"
                     />
                   </li>
                 </ul>
               </div>
               <footer class="card-footer">
-                <a target="_blank" href="https://github.com/erickseis/Pokedex"
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/erickseis/Pokedex"
                   ><i class="fa-brands fa-github"></i
                 ></a>
-                <a target="_blank" href="https://pokedexerick.netlify.app/"
+                <a target="_blank" rel="noopener noreferrer" href="https://pokedexerick.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
               </footer>
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/crud.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -402,18 +422,18 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Api-Users-Put-Post-Delete-"
                   ><i class="fa-brands fa-github"></i
                 ></a>
-                <a target="_blank" href="https://cards-crud.netlify.app/"
+                <a target="_blank" rel="noopener noreferrer" href="https://cards-crud.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
               </footer>
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/clima.mp4" type="video/mp4" />
             </video>
 
@@ -447,11 +467,11 @@
                 </ul>
               </div>
               <footer class="card-footer">
-                <a target="_blank" href="https://github.com/erickseis/AppClima"
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/erickseis/AppClima"
                   ><i class="fa-brands fa-github"></i
                 ></a>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://appclimatelocation.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
@@ -459,7 +479,7 @@
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/pokedextmini.mp4" type="video/mp4" />
             </video>
 
@@ -494,18 +514,18 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Pokedex-basico"
                   ><i class="fa-brands fa-github"></i
                 ></a>
-                <a target="_blank" href="https://pokedexbasicapi.netlify.app/"
+                <a target="_blank" rel="noopener noreferrer" href="https://pokedexbasicapi.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
               </footer>
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/rickAndMorty.mp4" type="video/mp4" />
             </video>
 
@@ -541,12 +561,12 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Rick-and-Morty"
                   ><i class="fa-brands fa-github"></i
                 ></a>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://rickandmortyappforapi.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
@@ -554,7 +574,7 @@
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/ecommerce.mp4" type="video/mp4" />
             </video>
 
@@ -569,7 +589,7 @@
                   <li>
                     <img
                       src=" https://zaidakary.github.io/Portafolio/imagenes/javascript.jpg"
-                      alt="javascript-logo"
+                      alt="javascript-logo" loading="lazy" decoding="async"
                     />
                   </li>
 
@@ -589,12 +609,12 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Ecommerce-Vanilla-JavaScript"
                   ><i class="fa-brands fa-github"></i
                 ></a>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://ecommercelocalstorage.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
@@ -602,7 +622,7 @@
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/tarjetas.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -637,11 +657,11 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/ReactEntregable1"
                   ><i class="fa-brands fa-github"></i
                 ></a>
-                <a target="_blank" href="https://jsoncard.netlify.app/"
+                <a target="_blank" rel="noopener noreferrer" href="https://jsoncard.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
               </footer>
@@ -667,8 +687,7 @@
           <label for="message"></label>
           <textarea
             name="message"
-            i
-            d="message"
+            id="message"
             cols="30"
             rows="5"
             placeholder="Write a message"
@@ -683,13 +702,13 @@
         <div class="contaApp">
           <p data-aos="fade-left">
             <a
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://www.linkedin.com/in/erick-seis-b6418223a/"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
           </p>
           <p data-aos="fade-left">
-            <a target="_blank" href="https://github.com/erickseis">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/erickseis">
               <i class="fa-brands fa-square-github"></i
             ></a>
           </p>

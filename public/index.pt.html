@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Erick Seis, Desenvolvedor Web Full Stack. Projetos, habilidades e contato." />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -32,39 +33,58 @@
     <section id="app" class="ocult-app">
       <nav class="nav">
         <div class="nav-links" id="menu">
-          <a id="darkmode" class="nav-target"
-            ><i id="dark" class="fa-solid fa-circle-half-stroke"></i
-          ></a>
-          <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i></a>
-          <a href="#aboutMe" class="nav-link"
-            ><i class="fa-solid fa-user"></i
-          ></a>
-          <a href="#abilities" class="nav-link"
-            ><i class="fa-solid fa-heart"></i
-          ></a>
-          <a href="#projects" class="nav-link"
-            ><i class="fa-solid fa-briefcase"></i
-          ></a>
-          <a href="#form" class="nav-link"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
+          <ul class="nav-links" id="menu">
+            <li class="container-dark-mode">
+              <a id="darkmode" class="nav-target" role="button" aria-pressed="false" aria-label="Alternar modo escuro"
+                ><i id="dark" class="fa-solid fa-circle-half-stroke"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#home" class="nav-link"
+                ><i class="fa-solid fa-house"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#aboutMe" class="nav-link"
+                ><i class="fa-solid fa-user"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#abilities" class="nav-link"
+                ><i class="fa-solid fa-heart"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link"
+                ><i class="fa-solid fa-briefcase"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#form" class="nav-link"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </nav>
       <div class="list-lenguage">
         <ul>
           <li>
             <a href="./index.pt.html"
-              ><img src="./src/images/pt-logo.svg" alt="logo-pt"
+              ><img src="./src/images/pt-logo.svg" alt="logo-pt" loading="lazy" decoding="async"
             /></a>
           </li>
           <li>
             <a href="./index.en.html"
-              ><img src="./src/images/en-logo.svg" alt="logo-en"
+              ><img src="./src/images/en-logo.svg" alt="logo-en" loading="lazy" decoding="async"
             /></a>
           </li>
           <li>
             <a href="./index.html"
-              ><img src="./src/images/es-logo.svg" alt="logo-es"
+              ><img src="./src/images/es-logo.svg" alt="logo-es" loading="lazy" decoding="async"
             /></a>
           </li>
         </ul>
@@ -95,15 +115,15 @@
           <img
             id="animado"
             src="./src/images/ErickParaCurriculum_600px.jpeg"
-            alt="imagen perfil"
+            alt="Foto de perfil de Erick Seis"
           />
         </div>
 
         <button class="btn-cv">
           <a
             id="download"
-            target="_blank"
-            href="https://drive.google.com/file/d/1_50PlAJ0SPmjzB0pa7nLePM3dz5D-UJd/view?usp=sharing"
+            target="_blank" rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1S9rmf1dlCpiN3zL6-4vFXbEmiSrmBNtN/view?usp=sharing"
             download="cv"
             ><strong> Download CV </strong>
             <span><i class="fa-solid fa-circle-arrow-down"></i> </span
@@ -327,7 +347,7 @@
         <h1 data-aos="zoom-in">PROJETOS</h1>
         <div class="grid">
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/pokedex.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -340,41 +360,41 @@
                   <li>
                     <img
                       src="https://enriquezapata.com/wp-content/uploads/2021/12/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac250cda95.4452823815233628530527.png"
-                      alt="react-logo"
+                      alt="react-logo" loading="lazy" decoding="async"
                     />
                   </li>
                   <li>
                     <img
                       src="https://cdn.worldvectorlogo.com/logos/redux.svg"
-                      alt="redux-logo"
+                      alt="redux-logo" loading="lazy" decoding="async"
                     />
                   </li>
                   <li>
                     <img
                       src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg"
-                      alt="html-logo"
+                      alt="html-logo" loading="lazy" decoding="async"
                     />
                   </li>
                   <li>
                     <img
                       src="https://i.imgflip.com/6ejuoo.png"
-                      alt="css-logo"
+                      alt="css-logo" loading="lazy" decoding="async"
                     />
                   </li>
                 </ul>
               </div>
               <footer class="card-footer">
-                <a target="_blank" href="https://github.com/erickseis/Pokedex"
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/erickseis/Pokedex"
                   ><i class="fa-brands fa-github"></i
                 ></a>
-                <a target="_blank" href="https://pokedexerick.netlify.app/"
+                <a target="_blank" rel="noopener noreferrer" href="https://pokedexerick.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
               </footer>
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/crud.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -407,18 +427,18 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Api-Users-Put-Post-Delete-"
                   ><i class="fa-brands fa-github"></i
                 ></a>
-                <a target="_blank" href="https://cards-crud.netlify.app/"
+                <a target="_blank" rel="noopener noreferrer" href="https://cards-crud.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
               </footer>
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/clima.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -451,11 +471,11 @@
                 </ul>
               </div>
               <footer class="card-footer">
-                <a target="_blank" href="https://github.com/erickseis/AppClima"
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/erickseis/AppClima"
                   ><i class="fa-brands fa-github"></i
                 ></a>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://appclimatelocation.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
@@ -463,7 +483,7 @@
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/pokedextmini.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -496,18 +516,18 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Pokedex-basico"
                   ><i class="fa-brands fa-github"></i
                 ></a>
-                <a target="_blank" href="https://pokedexbasicapi.netlify.app/"
+                <a target="_blank" rel="noopener noreferrer" href="https://pokedexbasicapi.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
               </footer>
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/rickAndMorty.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -540,12 +560,12 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Rick-and-Morty"
                   ><i class="fa-brands fa-github"></i
                 ></a>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://rickandmortyappforapi.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
@@ -553,7 +573,7 @@
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/ecommerce.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -586,12 +606,12 @@
               </div>
               <footer class="card-footer">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://github.com/erickseis/Ecommerce-Vanilla-JavaScript"
                   ><i class="fa-brands fa-github"></i
                 ></a>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   href="https://ecommercelocalstorage.netlify.app/"
                   ><i class="fa-solid fa-globe"></i
                 ></a>
@@ -599,7 +619,7 @@
             </div>
           </div>
           <div class="projects card">
-            <video width="350" height="215" autoplay loop muted>
+            <video width="350" height="215" autoplay loop muted playsinline preload="metadata">
               <source src="src/video/tarjetas.mp4" type="video/mp4" />
             </video>
             <div class="card-secondary">
@@ -612,7 +632,7 @@
                   <li>
                     <img
                       src=" https://zaidakary.github.io/Portafolio/imagenes/javascript.jpg"
-                      alt="javascript-logo"
+                      alt="javascript-logo" loading="lazy" decoding="async"
                     />
                   </li>
 
@@ -632,11 +652,11 @@
               </div>
               <footer class="card-footer">
               <a
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 href="https://github.com/erickseis/ReactEntregable1"
                 ><i class="fa-brands fa-github"></i
               ></a>
-              <a target="_blank" href="https://jsoncard.netlify.app/"
+              <a target="_blank" rel="noopener noreferrer" href="https://jsoncard.netlify.app/"
                 ><i class="fa-solid fa-globe"></i
               ></a>
             </footer>
@@ -656,16 +676,15 @@
           <input type="text" name="phone" id="phone" placeholder="Telefone" />
           <br />
           <label for="email"></label>
-          <input type="text" name="email" id="email" placeholder="E-mail" />
+          <input type="text" name="email" id="email" placeholder="Email" />
           <br />
           <label for="message"></label>
           <textarea
             name="message"
-            i
-            d="message"
+            id="message"
             cols="30"
             rows="5"
-            placeholder="Escrever uma mensagem"
+            placeholder="Escreva uma mensagem"
           ></textarea>
           <br />
           <p class="btn-submit">
@@ -677,13 +696,13 @@
         <div class="contaApp">
           <p data-aos="fade-left">
             <a
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://www.linkedin.com/in/erick-seis-b6418223a/"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
           </p>
           <p data-aos="fade-left">
-            <a target="_blank" href="https://github.com/erickseis">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/erickseis">
               <i class="fa-brands fa-square-github"></i
             ></a>
           </p>
